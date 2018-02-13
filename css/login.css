@@ -1,0 +1,68 @@
+body{
+    background-color: darkgrey;
+}
+div#login_pane{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 22%;
+    height: 50%;
+}
+div#login_title{
+    width: 300px;
+    height: 90px;
+    margin: 0px;
+    text-align: center;
+    background-color: chartreuse;
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: 2px;
+    border-bottom-width: 1px;
+    border-radius: 10px 10px 0px 0px;
+}
+div#login_main{
+    background-color: floralwhite;  
+    width: 300px;
+    height: 150px;
+    margin: 0px;
+    text-align: center;
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: 2px;
+    border-top-width: 1px;
+    border-radius: 0px 0px 10px 10px;
+}
+button {
+    margin: 0 20px 40px;
+    display: inline-block;
+    background-color: chartreuse;
+    line-height: 1;
+    position: relative;
+    cursor: pointer;
+}
+button.login_button{
+    width: 100px;
+    height: 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    border-style: solid;
+    border-color: darkslategray;
+    border-width: 1px;
+    border-radius: 8px 8px 8px 8px;
+}
+button#login{
+    position: relative;
+    top: 0%;
+    left: 33%;
+}
+div#adduser{
+    position: relative;
+    top: -21%;
+    left: 58%;
+}
