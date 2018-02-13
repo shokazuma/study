@@ -59,7 +59,7 @@ function displayError( $message ) {
     <body>
         <div id="login_pane">
             <div id="login_title">
-                <h1>掲示板Light</h1>
+                <h1>BBS Light</h1>
             </div>
             <form name="form1" method="POST" action="">
                 <div id="login_main">
